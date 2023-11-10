@@ -1,0 +1,76 @@
+<!-- login.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+	<style>
+	body{
+	background-image:url("https://www.smartschoolerp.com/wp-content/uploads/2022/05/studnt-login.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:100%;
+	font-family: 'Numans',sans-serif;
+	}
+   h1{
+        text-align:center;
+        font-family:verdana;
+        font-size:60px;
+        color:white;
+   }
+   h3{
+        text-align:left;
+        font-family:verdana;
+        font-size:50px;
+        color:white;
+   }
+   label{
+         text-align:center;
+        font-family:verdana;
+        font-size:30px;
+         color:white;
+       }
+	form{
+	width:40%
+	    }
+	button{
+	background-light blue;
+	color:black;
+	padding:20px 20px;
+    cursor:pointer;
+    width:50%;	
+
+    height:50%;	
+	}
+	container{
+	padding:
+	}
+	input[type=text],input[type=password]{
+	width:50%;
+	padding:18px 20px;
+	display:inline-block;
+	}
+	</style>
+	
+</head>
+
+<body>
+    <h1>Student performance prediction </h1>
+	<h3>Login</h3>
+    <form action="/login" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+        <button type="submit">LOGIN</button>
+		
+		
+    </form>
+</body>
+
+</html>
